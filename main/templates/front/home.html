@@ -8,8 +8,8 @@
 
     {% endblock %}
 
-    {% block mainblock %}                                                     
-         <div class="site-blocks-cover overlay" style="background-image: url('static/front/images/bg.jpg');" data-aos="fade" id="home-section">
+    {% block mainblock %}
+         <div class="site-blocks-cover overlay" style="background-image: url({% static 'front/images/stock7.jpg' %});" data-aos="fade" id="home-section">
 
       <div class="container">
         <div class="row align-items-center justify-content-center">
@@ -42,13 +42,13 @@
         <div class="row">
           <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
             <figure class="circle-bg">
-            <img src="{% static 'front/images/about1.jpg' %}" alt="Image" class="img-fluid">
+            <img src="{% static 'front/images/about.jpg' %}" alt="Image" class="img-fluid">
             </figure>
           </div>
           <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
             <div class="mb-4">
               <h3 class="h3 mb-4 text-black">For the next genration investment</h3>
-              <p>Stock Point is a company founded by Big data analytics students of Georgian college in 2020. Here one can use Artificial Intelligence to make predcitions and invest smartly.</p>
+              <p>InvestSmart is founded by students of PDPM IIITDM Jabalpur in 2020. Here one can use Artificial Intelligence to make predcitions and invest smartly.</p>
               
             </div>
             
@@ -204,7 +204,7 @@
         <div class="row mb-5 justify-content-center">
           <div class="col-md-8 text-center">
             <h2 class="section-title mb-3" data-aos="fade-up" data-aos-delay="">Our Team</h2>
-            <p class="lead" data-aos="fade-up" data-aos-delay="100">Our team have 4 members and you connect with them for more information and guidance.</p>
+            <p class="lead" data-aos="fade-up" data-aos-delay="100">Our team have 5 members and you connect with them for more information and guidance.</p>
           </div>
         </div>
         <div class="row justify-content-center">
@@ -214,14 +214,14 @@
             <div class="team-member">
               <figure>
                 <ul class="social">
-                  <li><a href=""><span class="icon-facebook"></span></a></li>
-                  <li><a href="https://www.linkedin.com/in/jasleen-a83855126/"><span class="icon-linkedin"></span></a></li>
+                  <li><a href="https://m.facebook.com/aditya.kumarbaurai?ref=bookmarks"><span class="icon-facebook"></span></a></li>
+                  <li><a href="https://www.linkedin.com/in/adityabaurai"><span class="icon-linkedin"></span></a></li>
                 </ul>
-                <img style="width: 250px; height: 250px" src="{% static 'front/images/Jasleen.jpg' %}" alt="Image" class="img-fluid">
+                <img style="width: 250px; height: 250px" src="{% static 'front/images/Aditya.jpg' %}" alt="Image" class="img-fluid">
               </figure>
               <div class="p-3">
-                <h3>Jasleen Jasleen</h3>
-                <span class="position">Project Manager</span>
+                <h3>Aditya Baurai</h3>
+                <span class="position">Product Manager</span>
               </div>
             </div>
           </div>
@@ -230,14 +230,14 @@
             <div class="team-member">
               <figure>
                 <ul class="social">
-                  <li><a href=""><span class="icon-facebook"></span></a></li>
-                  <li><a href="http://linkedin.com/in/simran-bhangu-11a77b1ab"><span class="icon-linkedin"></span></a></li>
+                  <li><a href="https://m.facebook.com/amanat.mishra.9"><span class="icon-facebook"></span></a></li>
+                  <li><a href="https://www.linkedin.com/in/amanat-mishra-b78461150"><span class="icon-linkedin"></span></a></li>
                 </ul>
-                <img style="width: 250px; height: 250px" src="{% static 'front/images/Simran.jpg' %}" alt="Image" class="img-fluid">
+                <img style="width: 250px; height: 250px" src="{% static 'front/images/Amanat.jpg' %}" alt="Image" class="img-fluid">
               </figure>
               <div class="p-3">
-                <h3>Simran Bhangu</h3>
-                <span class="position">Business Analyst</span>
+                <h3>Amanat Mishra</h3>
+                <span class="position">Product Manager</span>
               </div>
             </div>
           </div>
@@ -248,14 +248,14 @@
             <div class="team-member">
               <figure>
                 <ul class="social">
-                  <li><a href=""><span class="icon-facebook"></span></a></li>
-                  <li><a href="https://www.linkedin.com/in/anika-rana-2358b660/"><span class="icon-linkedin"></span></a></li>
+                  <li><a href="https://www.facebook.com/ambuj.jain.18/"><span class="icon-facebook"></span></a></li>
+                  <li><a href="https://www.linkedin.com/in/ambujalpha/"><span class="icon-linkedin"></span></a></li>
                 </ul>
-                <img style="width: 250px; height: 250px" src="{% static 'front/images/Anika.jpeg' %}" alt="Image" class="img-fluid">
+                <img style="width: 250px; height: 250px" src="{% static 'front/images/Ambuj.jpeg' %}" alt="Image" class="img-fluid">
               </figure>
               <div class="p-3">
-                <h3>Anika Rana</h3>
-                <span class="position">Data Analyst</span>
+                <h3>Ambuj Jain</h3>
+                <span class="position">Product Manager</span>
               </div>
             </div>
           </div>
@@ -267,17 +267,36 @@
             <div class="team-member">
               <figure>
                 <ul class="social">
-                  <li><a href=""><span class="icon-facebook"></span></a></li>
-                  <li><a href=""><span class="icon-linkedin"></span></a></li>
+                  <li><a href="https://www.facebook.com/palak.mendiratta.56"><span class="icon-facebook"></span></a></li>
+                  <li><a href="https://www.linkedin.com/in/palak-mendiratta"><span class="icon-linkedin"></span></a></li>
                 </ul>
-                <img style="width: 250px; height: 250px" src="{% static 'front/images/Lekshmi.jpeg' %}" alt="Image" class="img-fluid">
+                <img style="width: 250px; height: 250px" src="{% static 'front/images/Palak.jpg' %}" alt="Image" class="img-fluid">
               </figure>
               <div class="p-3">
-                <h3>Lekshmi Rajendran</h3>
-                <span class="position">Developers</span>
+                <h3>Palak Mendiretta</h3>
+                <span class="position">Product Manager</span>
               </div>
             </div>
           </div>
+
+          <div class="col-sm-6 col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="team-member">
+              <figure>
+                <ul class="social">
+                  <li><a href="https://m.facebook.com/Ankit.18t?ref=bookmarks"><span class="icon-facebook"></span></a></li>
+                  <li><a href="https://www.linkedin.com/in/~ankittiwari/"><span class="icon-linkedin"></span></a></li>
+                </ul>
+                <img style="width: 250px; height: 250px" src="{% static 'front/images/Ankit.jpg' %}" alt="Image" class="img-fluid">
+              </figure>
+              <div class="p-3">
+                <h3>Ankit Tiwari</h3>
+                <span class="position">Product Manager</span>
+              </div>
+            </div>
+          </div>
+
+
+
         </div>
       </div>
     </section>
